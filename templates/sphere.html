@@ -1,6 +1,20 @@
-<html>
-<head></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sphere Volume Calculator</title>
+</head>
 <body>
-<!-- Need a Form Here -->
+    <h1>Sphere Volume Calculator</h1>
+
+    <!-- Form to enter radius for sphere volume calculation -->
+    <form action="/sphere" method="POST">
+        <label for="rad">Enter the radius:</label>
+        <input type="text" name="rad" id="rad" required><br><br>
+        
+        <input type="submit" value="Calculate Volume">
+    </form>
+
 </body>
 </html>
